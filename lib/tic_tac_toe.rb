@@ -67,4 +67,8 @@ class TicTacToe
     end
   end
 
+  def full?
+    @board.all? do {|value| value != " "}
+  end
+
 end
