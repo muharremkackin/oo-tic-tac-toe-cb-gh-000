@@ -79,4 +79,8 @@ class TicTacToe
     won? || draw? || full?
   end
 
+  def winner
+    @board[won?[0]]
+  end
+
 end
